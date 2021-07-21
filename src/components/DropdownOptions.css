@@ -1,0 +1,11 @@
+#checkboxes {
+    display: none;
+}
+  
+#checkboxes label {
+    display: block;
+}
+
+#checkboxes label:hover {
+    background-color: #e3f2fd;
+}

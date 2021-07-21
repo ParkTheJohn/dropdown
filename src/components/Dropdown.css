@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    color: white;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #2196f3;
+    background-image: #2196f3;
+    display: grid;
+    grid-template-areas: "select";
+    align-items: center;
+}
+
+.dropdownComponent {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    margin: auto;
+}
+
+.dropdownSelect {
+    position: relative;
+}
+
+.dropdownSelect select {
+    width:100%;
+}
+
+.selectOverlap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
